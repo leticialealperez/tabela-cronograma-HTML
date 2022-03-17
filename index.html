@@ -7,41 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronograma de Estudos</title>
     <style>
-        body {
-            font-family: sans-serif;
-            background: linear-gradient(to left, red, blue, yellow);
+        table {
+            width: 100%;
+            border: 1px solid;
+            border-collapse: collapse;
         }
 
         td {
-            border: 1px solid white;
-            border-collapse: collapse;
+            border: 1px solid;
             padding: 20px;
-            color: aliceblue;
         }
 
         th {
+            border: 1px solid;
             padding: 15px;
-            color: rgb(36, 22, 240);
             font-weight: bold;
         }
     </style>
 </head>
 
 <body>
-    <header style="display: flex; align-items: center; justify-content: center;">
-        <h1 style="color: aliceblue;">Plano de Estudo</h1>
-        <img src="./images/image-bonita.png" alt="cronograma-ilustração" style="max-width: 300px;">
+    <header style="text-align: center;">
+        <h1>Plano de Estudo</h1>
+        <img src="./images/image-bonita.png" alt="cronograma-ilustração" style="width: 300px;">
     </header>
     <main>
-        <table style="width: 100%;">
-            <colgroup>
-                <col span="1" style="background-color: aqua;">
-                <col span="7" style="background-color: blueviolet; ">
-            </colgroup>
+        <table>
             <thead>
-                <tr style="background-color: aliceblue;">
+                <tr>
                     <th>
-                        <img src="./images/horario.png" alt="relogio-horario" style="max-width: 50px;">
+                        <img src="./images/horario.png" alt="relogio-horario" style="width: 50px;">
                     </th>
                     <th>SEGUNDA</th>
                     <th>TERÇA</th>
@@ -53,40 +48,29 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr style="text-align: center;">
                     <th>08:00 - 12:00</th>
-                    <td style="text-align: center;">Aula Front End I - Mentor Marcelo</td>
-                    <td>Revisão - Tech Helper Letícia</td>
-                    <td style="text-align: center;">Aula Front End I - Mentor Marcelo</td>
-                    <td>Revisão - Tech Helper Letícia</td>
-                    <td>Revisão Geral - Tech Helper Letícia</td>
-                    <td>Entrega de atividades</td>
-                    <td rowspan="5" style="text-align: center;">Churrasco e Cervejada</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Descansar</td>
                 </tr>
-                <tr>
+                <tr style="text-align: center;">
                     <th>12:00 - 13:00</th>
-                    <td colspan="6" style="text-align: center;">Almoço</td>
+                    <td colspan="7">Almoçar</td>
                 </tr>
-                <tr>
+                <tr style="text-align: center;">
                     <th>13:00 - 15:00</th>
-                    <td>
-                        <ul>
-                            <li>Assistir série</li>
-                            <li>Tirar uma soneca</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Realizar atividades</li>
-                            <li>Exercitar HTML</li>
-                            <li>Ficar no canal de voz do Discord</li>
-                        </ul>
-                    </td>
                     <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
-
+                    <td></td>
+                    <td></td>
+                    <td rowspan="3">Descansar</td>
                 </tr>
                 <tr>
                     <th>15:00 - 18:00</th>
@@ -99,7 +83,7 @@
 
                 </tr>
                 <tr>
-                    <th>18:00 - 22:00</th>
+                    <th>18:00 - 22:30</th>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -108,17 +92,22 @@
                     <td></td>
 
                 </tr>
+                <tr style="text-align: center;">
+                    <th>22:30 - 08:00</th>
+                    <td colspan="8">Dormir</td>
+                </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td></td>
-                    <td colspan="8" style="text-align: center;"><small>&copy; Growdev</small></td>
+                    <td colspan="8" style="text-align: center;">
+                        <img src="./images/growdev.png" alt="logo-da-growdev">
+                    </td>
                 </tr>
             </tfoot>
         </table>
     </main>
     <footer style="text-align: center;">
-        <small style="color: aliceblue;">Atividade prática - Tabela Cronograma de Estudos - &copy;Growdev 2022</small>
+        <small>Atividade prática - Tabela Cronograma de Estudos - &copy;Growdev 2022</small>
     </footer>
 </body>
 
